@@ -192,8 +192,8 @@ Detaljno u [LICENSE](LICENSE) fajlu.
 
 ## Kontakt
 
-- GitHub: (dodaj link)
-- Email: (dodaj ako želiš)
+- GitHub: [(Popravljam)](https://github.com/Popravljam)
+- Email: lazar.covs@gmail.com
 
 ---
 
