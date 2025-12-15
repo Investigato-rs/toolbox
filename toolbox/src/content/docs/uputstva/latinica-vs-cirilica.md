@@ -32,7 +32,7 @@ Uvek probaj i latinicu i ćirilicu.
 
 ### 3. Koristi delimičnu pretragu
 Umesto "Društvo", pretraži samo "Drustvo" ili "rustvo"
-Jednom mi je pretraga za "*ugosl*" dala mnogo bolje reaultate nego "Jugoslavija"
+Jednom mi je pretraga za "*ugosl*" dala mnogo bolje rezultate nego "Jugoslavija"
 
 ### 4. Koristi identifikatore
 Kad god je moguće, koristi PIB ili MB (matični broj) umesto imena.
