@@ -1,0 +1,41 @@
+---
+title: Investigato.rs Toolbox
+description: OSINT priručnik za Srbiju i region
+template: splash
+hero:
+  tagline: Besplatan, otvoreni priručnik za OSINT istraživanja u Srbiji
+  actions:
+    - text: Počni ovde
+      link: /pocni-ovde/
+      icon: right-arrow
+      variant: primary
+    - text: Pregledaj baze podataka
+      link: /baze-podataka/srbija/
+      icon: open-book
+      variant: secondary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Šta možeš da nađeš ovde?
+
+<CardGrid stagger>
+	<Card title="Počni ovde" icon="rocket">
+		Ako nikad nisi radio/la OSINT u Srbiji, [počni ovde](/pocni-ovde/). Nauči osnovne identifikatore, razumi problem sa latinicom i ćirilicom, i upoznaj pravni okvir.
+	</Card>
+	<Card title="Istraživanja" icon="puzzle">
+		Korak-po-korak [vodiči](/istrazivanja/) za najčešća istraživanja: kako pronaći firmu, ko je vlasnik, kako proveriti nekretnine, kako pratiti javni novac.
+	</Card>
+	<Card title="Baze podataka" icon="list-format">
+		Kompletna [baza](/baze-podataka/srbija/) javnih registara i portala u Srbiji — APR, NBS, REM, sudovi, katastri, i sve ostale.
+	</Card>
+	<Card title="Alati" icon="seti-ui">
+		Opšti [OSINT alati](/alati/) koji nisu specifični za Srbiju — Google operatori, arhive, reverse image search, i više.
+	</Card>
+	<Card title="Uputstva" icon="information">
+		Detaljni [tutorijali](/uputstva/) koji objašnjavaju kako koristiti baze podataka, čitati finansijske izveštaje, i tumačiti zvanične dokumente.
+	</Card>
+	<Card title="O projektu" icon="github">
+		Saznaj više [o projektu](/o-projektu/), principima, i kako možeš da doprinešeš.
+	</Card>
+</CardGrid>
