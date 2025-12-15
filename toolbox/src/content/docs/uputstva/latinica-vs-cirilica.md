@@ -9,7 +9,7 @@ Srpski jezik koristi dva pisma — latinicu i ćirilicu. Ovo stvara probleme u p
 
 ### Primeri
 
-Ista firma može biti registrovana kao:
+Različite firme mogu zbog ovoga delovati kao da imaju isto ime:
 - "Društvo" (latinica)
 - "Друштво" (ćirilica)
 
@@ -17,6 +17,10 @@ Isto ime može imati varijacije:
 - "Đorđe" (latinica sa đ)
 - "Djordje" (latinica bez đ)
 - "Ђорђе" (ćirilica)
+
+Iz nekog razloga ljudi u Srbiji ne vole da koriste dijakritike kako treba
+- "Salon za sisanje i satiranje" nije isto što i
+- "Salon za šišanje i šatiranje"
 
 ## Strategije pretrage
 
@@ -28,9 +32,11 @@ Uvek probaj i latinicu i ćirilicu.
 
 ### 3. Koristi delimičnu pretragu
 Umesto "Društvo", pretraži samo "Drustvo" ili "rustvo"
+Jednom mi je pretraga za "*ugosl*" dala mnogo bolje reaultate nego "Jugoslavija"
 
 ### 4. Koristi identifikatore
-Kad god je moguće, koristi PIB ili matični broj umesto imena.
+Kad god je moguće, koristi PIB ili MB (matični broj) umesto imena.
+MB je jedan, imena su slična
 
 ## Primena u bazama
 
