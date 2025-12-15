@@ -7,7 +7,7 @@ description: O Investigato.rs projektu
 
 Investigato.rs nastao je iz potrebe da se **demokratizuje pristup informacijama** i **olakša istraživačko novinarstvo** u Srbiji i regionu.
 
-Javne baze podataka postoje, ali su često:
+Neke javne baze podataka postoje, ali su često:
 - Teško dostupne
 - Loše dokumentovane
 - Nejasne za početnike
@@ -34,7 +34,7 @@ Sadržaj je pisan jednostavno, na srpskom jeziku, kako bi bio razumljiv svima.
 
 ## Ko stoji iza projekta?
 
-(U pripremi — dodaj informacije o autorima/održavaocima)
+Lazar Čovs - novinar
 
 ## Pravni i etički okvir
 
@@ -77,13 +77,13 @@ Investigato.rs je **community-driven** projekta. Tvoj doprinos je dobrodošao!
 3. **Poboljšaj postojeći sadržaj**
    - Dodaj screenshot-ove
    - Objasni nejasne korake
-   - Ispravi gramatičke greške
+   - Ispravi gramatičke ili pravopisne ili faktografske greške
 
 4. **Podeli projekat**
    - Pomozi da više ljudi zna za Investigato.rs
 
 ### GitHub
-(Dodaj link ka GitHub repozitorijumu)
+[Popravljam](https://github.com/Popravljam)
 
 ## Licenca sadržaja
 
@@ -112,9 +112,9 @@ Ako pronađeš zastarele podatke, [prijavi ih](#kako-doprineti).
 
 ## Kontakt
 
-- **GitHub:** (dodaj link)
-- **Email:** (dodaj email ako želiš)
-- **Twitter/X:** (opciono)
+- **GitHub:** [Popravljam](https://github.com/Popravljam)
+- **Email:** lazar.covs@gmail.com
+- **Twitter/X:** @Popravljam
 
 ## Zahvalnice
 
@@ -126,4 +126,4 @@ Hvala organizacijama koje su pomogle:
 
 ---
 
-Investigato.rs je nezavisni projekat koji ne prima sredstva od vlade, političkih partija ili korporacija.
+Investigato.rs je nezavisni projekat
