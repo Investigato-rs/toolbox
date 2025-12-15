@@ -37,7 +37,7 @@ U Srbiji, ključni identifikatori za istraživanje su:
 - **Broj katastarske parcele**
 - **Broj računa** (za blokade i izvršenja)
 
-### 2. Razumi problem sa imenima
+### 2. Razumej problem sa imenima
 Srpski jezik ima specifičnosti koje otežavaju pretragu:
 - Latinica i ćirilica se često mešaju
 - Dijakritici (č, ć, š, ž, đ) se mogu izgubiti
