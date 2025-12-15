@@ -184,7 +184,11 @@ funkcija: privreda-i-vlasnistvo | nekretnine-i-katastar | ...
 
 ## Licenca
 
-(TBD - predlog: Creative Commons CC BY-SA 4.0 za sadržaj, MIT za kod)
+**Dual License:**
+- **Sadržaj** (vodiči, baze, tutorijali): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- **Kod** (config, skripte, komponente): [MIT License](https://opensource.org/licenses/MIT)
+
+Detaljno u [LICENSE](LICENSE) fajlu.
 
 ## Kontakt
 

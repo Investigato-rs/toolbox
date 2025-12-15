@@ -87,7 +87,20 @@ Investigato.rs je **community-driven** projekta. Tvoj doprinos je dobrodošao!
 
 ## Licenca sadržaja
 
-(U pripremi — odluči o licenci: Creative Commons, MIT, itd.)
+**Investigato.rs koristi dual license:**
+
+### Sadržaj (CC BY-SA 4.0)
+Svi vodiči, baze podataka, i tutorijali su pod [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/) licencom.
+
+✅ Slobodno: Kopiranje, deljenje, adaptacija, komercijalna upotreba  
+⚠️ Uslovi: Navedi autora, deli pod istom licencom
+
+### Kod (MIT License)
+Svi konfiguracioni fajlovi, skripte i kod su pod [MIT licencom](https://opensource.org/licenses/MIT).
+
+✅ Slobodno: Sve — najotvorenija licenca
+
+Detaljno: [LICENSE fajl na GitHub-u](https://github.com/Investigato-rs/toolbox/blob/main/LICENSE)
 
 ## Politika ažuriranja
 
