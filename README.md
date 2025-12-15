@@ -194,3 +194,8 @@ funkcija: privreda-i-vlasnistvo | nekretnine-i-katastar | ...
 ---
 
 **Investigato.rs** je nezavisni projekat za sve koji imaju pravo da znaju.
+
+
+## 🤖 Auto-Deployment
+
+This project uses GitHub Actions for automatic deployment. Any push to `main` branch will automatically build and deploy to the live sites.
