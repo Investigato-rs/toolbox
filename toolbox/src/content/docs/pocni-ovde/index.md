@@ -15,8 +15,8 @@ Ovde ćeš naći:
 
 ## Šta Investigato.rs NIJE
 
-❌ Ne bavimo se hakovanjem, curenjima ili nelegalnim metodama  
-❌ Ne objavljujemo lične podatke koje treba zaštititi  
+❌ Ne bavimo se hakovanjem ili nelegalnim metodama  
+❌ Ne objavljujemo lične podatke 
 ❌ Nismo zvanični registar — mi samo pokazujemo gde i kako tražiti
 
 ## Za koga je ovo?
@@ -41,9 +41,9 @@ U Srbiji, ključni identifikatori za istraživanje su:
 Srpski jezik ima specifičnosti koje otežavaju pretragu:
 - Latinica i ćirilica se često mešaju
 - Dijakritici (č, ć, š, ž, đ) se mogu izgubiti
-- Imena imaju varijacije (Milan/Millan, Đorđe/Đordje/Djordje)
+- Imena i nazivi imaju kongruencijske i tipografske varijacije (Milan/Millan, Đorđe/Đordje/Djordje)
 
-💡 **Savet:** Uvek pretraži više varijanti istog pojma
+💡 **Savet:** Uvek pretraži više varijanata istog pojma
 
 ### 3. Izaberi istraživanje koje te zanima
 
@@ -65,7 +65,7 @@ Pregledaj [Baze podataka](/baze-podataka/srbija/) da vidiš sve dostupne registr
 - Objavljivanje nalaza u javnom interesu
 
 ⚠️ **Pažljivo:**
-- JMBG je lični podatak — koristi samo kada je neophodno
+- JMBG je lični podatak 
 - Uvek proveri tačnost informacija
 - Poštuj privatnost običnih građana
 
