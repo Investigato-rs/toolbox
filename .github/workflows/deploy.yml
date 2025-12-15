@@ -1,0 +1,68 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: |
+            landing/package-lock.json
+            toolbox/package-lock.json
+      
+      - name: Install dependencies - Landing
+        run: |
+          cd landing
+          npm ci
+      
+      - name: Install dependencies - Toolbox
+        run: |
+          cd toolbox
+          npm ci
+      
+      - name: Build Landing
+        run: |
+          cd landing
+          npm run build
+      
+      - name: Build Toolbox
+        run: |
+          cd toolbox
+          npm run build
+      
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/investigato_key
+          chmod 600 ~/.ssh/investigato_key
+          ssh-keyscan -H 194.146.59.194 >> ~/.ssh/known_hosts
+      
+      - name: Deploy Landing to Server
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/investigato_key -o StrictHostKeyChecking=no" \
+            landing/dist/ \
+            popravlj@194.146.59.194:~/public_html/
+      
+      - name: Deploy Toolbox to Server
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/investigato_key -o StrictHostKeyChecking=no" \
+            toolbox/dist/ \
+            popravlj@194.146.59.194:~/public_html/toolbox.investigato.rs/
+      
+      - name: Cleanup
+        if: always()
+        run: rm -f ~/.ssh/investigato_key
